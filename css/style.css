@@ -1,0 +1,27 @@
+/* Цвет фона #FFFFFF */
+/* Основной цвет заголовков #212121*/
+/* Цвет текста #757575 */
+/* Цвет акцета #2196F3 */
+
+:root{
+  --background-color:#FFFFFF;
+  --primary-tittle-color:#212121;
+  --secondary-text-color:#757575;
+  --accent-color-button:#2196F3;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+.logo{
+  color:var(--accent-color-button)
+}
+
+.menu .link{ 
+color:var(--primary-tittle-color);
+}
+.menu .link:hover,
+.menu .link:focus{
+  color:var(--accent-color-button);
+}
