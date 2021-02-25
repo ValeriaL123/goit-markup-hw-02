@@ -3,9 +3,6 @@
 /* Цвет текста #757575 */
 /* Цвет акцета #2196F3 */
 
-/* базовый сброс стилей */
-
-
 
 /* Переменные  */
 :root{
@@ -13,6 +10,7 @@
   --primary-tittle-color:#212121;
   --secondary-text-color:#757575;
   --accent-color-button:#2196F3;
+  --logo-color:#000000;
   --main-font:font-family: 'Roboto', sans-serif;
 }
 
@@ -27,9 +25,29 @@ body{
 .list{
   list-style: none;
 }
+.address{
+  text-transform: none;
+}
 /* Шапка меню */
+/* Логотип */
+.link > span{
+color:var(--accent-color-button);
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+/* Проверить цвет лого */
+.nav .link{
+color: var(--logo-color);  
+} 
+
+/* Контакты в шапке */
+
 .list .link{
-  color:var(--primary-tittle-color)
+color:var(--primary-tittle-color);
 }
 
 .list .link:hover,
@@ -37,9 +55,51 @@ body{
   color:var(--accent-color-button)
 }
 
+/* Hero */
+.hero-title{
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 
-.link > span{ color:var(--accent-color-button)}
+.hero .hero-button{
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: var(--accent-color-button);
+color:#FFFFFF;
+}
 
+/* Список особенностей */
+.list .list-features{
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-tittle-color);
+}
+
+.list .list-text{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.74 ;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+
+}
 
 
 .logo .link {
