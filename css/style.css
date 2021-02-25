@@ -3,25 +3,43 @@
 /* Цвет текста #757575 */
 /* Цвет акцета #2196F3 */
 
+/* базовый сброс стилей */
+
+
+
+/* Переменные  */
 :root{
   --background-color:#FFFFFF;
   --primary-tittle-color:#212121;
   --secondary-text-color:#757575;
   --accent-color-button:#2196F3;
+  --main-font:font-family: 'Roboto', sans-serif;
 }
 
 body{
   background-color: var(--background-color);
+  font-family: var--(main-font);
+}
+ /* Component */
+.link{
+  text-decoration: none;
+}
+.list{
+  list-style: none;
+}
+/* Шапка меню */
+.list .link{
+  color:var(--primary-tittle-color)
 }
 
-.logo{
+.list .link:hover,
+.list .link:focus{
   color:var(--accent-color-button)
 }
 
-.menu .link{ 
-color:var(--primary-tittle-color);
+.logo > link {
+  color:#000000;
 }
-.menu .link:hover,
-.menu .link:focus{
-  color:var(--accent-color-button);
-}
+
+
+
