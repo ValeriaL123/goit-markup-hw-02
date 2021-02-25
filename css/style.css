@@ -37,9 +37,11 @@ body{
   color:var(--accent-color-button)
 }
 
-.logo > link {
+
+.link > span{ color:var(--accent-color-button)}
+
+
+
+.logo .link {
   color:#000000;
 }
-
-
-
