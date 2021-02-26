@@ -21,16 +21,25 @@ body{
  /* Component */
 .link{
   text-decoration: none;
+  text-transform: none;
 }
 .list{
   list-style: none;
 }
 .address{
-  text-transform: none;
+text-transform: normal;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+/* color: #FFFFFF; */
 }
+
+
 /* Шапка меню */
 /* Логотип */
-.link > span{
+/* .link > span{
 color:var(--accent-color-button);
 font-family: Raleway;
 font-style: normal;
@@ -38,12 +47,25 @@ font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+} */
+.link.logo{
+color:var(--accent-color-button);
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
-/* Проверить цвет лого */
-.nav .link{
-color: var(--logo-color);  
-} 
 
+.nav .logo-accent{
+color:var(--logo-color);
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
 /* Контакты в шапке */
 
 .list .link{
@@ -64,20 +86,29 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+/* color: #FFFFFF; */
 }
 
-.hero .hero-button{
+.hero-button{
+
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.87;
-display: flex;
+text-align: center;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-background-color: var(--accent-color-button);
+background: var(--accent-color-button);
 color:#FFFFFF;
+border: 0px;
+cursor: pointer;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 /* Список особенностей */
@@ -98,10 +129,59 @@ font-size: 14px;
 line-height: 1.74 ;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
+}
+
+/* Секция 2 */
+.service{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-tittle-color);
+}
+
+/* Секция Наша команда  */
+
+.list .list-title{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color:var(--primary-tittle-color);
+}
+
+.list .list-item{
+font-style: normal;
+font-weight: normal;
+font-size: 1.18;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+
+/* Футер */
+.footer>link logo{
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--accent-color-button);
 
 }
 
 
-.logo .link {
-  color:#000000;
+.footer .logo-accent{
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
 }
