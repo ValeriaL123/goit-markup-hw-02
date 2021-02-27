@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Normalize -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-  <!-- Fonts -->
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="./css/style.css">
   <title>Портфолио</title>
 </head>
@@ -17,22 +18,22 @@
   <body>
 
   <!-- Шапка-->
-  <header class="nav">
-    <nav>
-    <a class="link"  href="index.html"> <span>Web</span> Studio</a>
+  <header class="header">
+    <nav class="nav">
+    <a class="link logo" href="index.html"> <span>Web</span> Studio</a>
 <!-- Меню -->
-    <ul class="list"  >
-      <li><a class="link" href="index.html" >Студия</a></li>
-      <li><a class="link" href="./portfolio.html" >Портфолио</a></li>
-      <li><a class="link" href="" >Контакты </a></li>
+    <ul class="list">
+      <li><a class="link menu" href="index.html" >Студия</a></li>
+      <li><a class="link menu" href="./portfolio.html" >Портфолио</a></li>
+      <li><a class="link menu" href="">Контакты </a></li>
     </ul>
   </nav>
 
     <!--Контакты-->
     
-      <ul class="list" >
-        <li><a class="link" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380961111111"> +38 096 111 11 11</a></li>
+      <ul class="list">
+        <li><a class="link contact" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
+        <li><a class="link contact" href="tel:+380961111111"> +38 096 111 11 11</a></li>
       </ul>
     
       
@@ -45,25 +46,25 @@
 
       <h1 hidden>Категории</h1>
 
-      <ul class="list">
+      <ul class="list" >
         <li>
-          <button type="button">Все</button>
+          <button class="btn" type="button">Все</button>
         </li>
 
         <li>
-          <button type="button">Веб-сайты</button>
+          <button class="btn" type="button">Веб-сайты</button>
         </li>
 
         <li>
-          <button type="button">Приложения</button>
+          <button class="btn" type="button">Приложения</button>
         </li>
 
         <li>
-          <button type="button">Дизайн</button>
+          <button class="btn" type="button">Дизайн</button>
         </li>
 
         <li>
-          <button type="button">Маркетинг</button>
+          <button class="btn" type="button">Маркетинг</button>
         </li>
       </ul>
 
@@ -135,9 +136,9 @@
 
   <footer>
     <div>
-      <a  class="link" href="./index.html"><span>Web</span> Studio</a>
+      <a class="link logo" href="./index.html"><span>Web</span> Studio</a>
   
-      <address class="address" >
+      <address class="address">
       <p>г. Киев, пр-т Леси Украинки, 26</p> 
   
       <a class="link" href="mailto:info@example.com">info@example.com</a>

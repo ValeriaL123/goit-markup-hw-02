@@ -1,85 +1,79 @@
-/* Цвет фона #FFFFFF */
-/* Основной цвет заголовков #212121*/
-/* Цвет текста #757575 */
-/* Цвет акцета #2196F3 */
 
-
-/* Переменные  */
+/*  Переменные */
 :root{
-  --background-color:#FFFFFF;
-  --primary-tittle-color:#212121;
+  --accent-color:#2196F3;
+  --bg-color: #FFFFFF;
+  --title-color: #212121;
   --secondary-text-color:#757575;
-  --accent-color-button:#2196F3;
-  --logo-color:#000000;
-  --main-font:font-family: 'Roboto', sans-serif;
+  --secondary-white-color: #FFFFFF;
 }
 
 body{
-  background-color: var(--background-color);
-  font-family: var--(main-font);
+  background-color:var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+  color:var(--title-color);
 }
- /* Component */
+
+/* Сброс стилей */
 .link{
   text-decoration: none;
-  text-transform: none;
 }
 .list{
   list-style: none;
 }
 .address{
-text-transform: normal;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-/* color: #FFFFFF; */
+  font-style: normal;
 }
 
+/* Компоненты */
+.btn{
+ cursor: pointer;}
 
-/* Шапка меню */
-/* Логотип */
-/* .link > span{
-color:var(--accent-color-button);
-font-family: Raleway;
-font-style: normal;
+.section-title{
 font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
 letter-spacing: 0.03em;
-} */
-.link.logo{
-color:var(--accent-color-button);
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+color:var(--title-color)
 }
 
-.nav .logo-accent{
-color:var(--logo-color);
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+/* Шапка */
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color:var(--accent-color);
 }
-/* Контакты в шапке */
-
-.list .link{
-color:var(--primary-tittle-color);
+.link.menu{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.link.menu:hover,
+.link.menu:focus{
+  color:var(--accent-color)
 }
 
-.list .link:hover,
-.list .link:focus{
-  color:var(--accent-color-button)
+.link.contact{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.link.contact:hover,
+.link.contact:focus{
+  color:var(--accent-color);
 }
 
-/* Hero */
+/* Герой */
+
 .hero-title{
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -89,99 +83,49 @@ text-transform: uppercase;
 /* color: #FFFFFF; */
 }
 
-.hero-button{
-
-font-style: normal;
+.btn.hero{
 font-weight: bold;
 font-size: 16px;
-line-height: 1.87;
-text-align: center;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-background: var(--accent-color-button);
-color:#FFFFFF;
-border: 0px;
-cursor: pointer;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
+line-height: 1.8;
+background-color: var(--accent-color);
+color:var(--secondary-white-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+border:0px;
 }
 
-/* Список особенностей */
-.list .list-features{
-font-style: normal;
+/* Особенности */
+
+.features-title{
 font-weight: bold;
 font-size: 14px;
-line-height: 1.14;
+line-height:1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--primary-tittle-color);
+color: var(--title-color);
 }
 
-.list .list-text{
-font-style: normal;
-font-weight: normal;
+.features-item{
 font-size: 14px;
-line-height: 1.74 ;
+line-height: 1.7;
 letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+color:var(--secondary-text-color);
 }
 
-/* Секция 2 */
-.service{
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-tittle-color);
-}
-
-/* Секция Наша команда  */
-
-.list .list-title{
-font-style: normal;
+/* Секция наша команда */
+.description .description-title{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
-color:var(--primary-tittle-color);
+color:var(--title-color);
 }
 
-.list .list-item{
-font-style: normal;
-font-weight: normal;
-font-size: 1.18;
-line-height: 19px;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+.description .description-text{
+  font-size: 16px;
+  line-height: 1.18; 
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /* Футер */
-.footer>link logo{
-  font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color:var(--accent-color-button);
-
-}
-
-
-.footer .logo-accent{
-
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-}
