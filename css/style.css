@@ -7,7 +7,7 @@
   --title-color: #212121;
   --secondary-text-color:#757575;
   --secondary-white-color: #FFFFFF;
-  
+
 /* Шрифты */
   --main-font:'Roboto', sans-serif;
   --secondary-font:'Raleway', sans-serif;
@@ -58,6 +58,8 @@ color:var(--title-color)
   color:var(--accent-color);
 }
 
+
+
 .logo-white{
   color:var(--secondary-white-color)
 }
@@ -76,6 +78,10 @@ color:var(--title-color)
 .link.menu:focus{
   color:var(--accent-color)
 }
+.link.menu.current-page:active{
+  color:var(--accent-color);
+}
+
 
 .link.contact{
   font-weight: 500;
