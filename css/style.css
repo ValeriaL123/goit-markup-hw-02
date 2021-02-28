@@ -7,9 +7,11 @@
   --title-color: #212121;
   --secondary-text-color:#757575;
   --secondary-white-color: #FFFFFF;
+  
 /* Шрифты */
   --main-font:'Roboto', sans-serif;
   --secondary-font:'Raleway', sans-serif;
+  --bg-color-hero-footer:#2F303A;
 }
 
 body{
@@ -34,7 +36,7 @@ body{
  cursor: pointer;}
 
 .section-title{
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -42,10 +44,14 @@ letter-spacing: 0.03em;
 color:var(--title-color)
 }
 
+.footer{
+  background-color: var(--bg-color-hero-footer);
+}
+
 /* Шапка */
 .logo{
   font-family:var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -84,6 +90,10 @@ color:var(--title-color)
 }
 
 /* Герой */
+.hero{
+  background-color: var(--bg-color-hero-footer);
+}
+
 
 .hero-title{
 font-weight: 900;
@@ -96,7 +106,7 @@ text-transform: uppercase;
 }
 
 .btn.hero{
-font-weight: bold;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.8;
 background-color: var(--accent-color);
@@ -109,7 +119,7 @@ border:0px;
 /* Особенности */
 
 .features-title{
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
 line-height:1.14;
 letter-spacing: 0.03em;
@@ -125,6 +135,10 @@ color:var(--secondary-text-color);
 }
 
 /* Секция наша команда */
+.description{
+  background-color: #F5F4FA;
+}
+
 .description .description-title{
 font-weight: 500;
 font-size: 16px;
@@ -179,7 +193,7 @@ color:var(--title-color);
 /*  Портфолио */
 
 .portfolio .portfolio-title{
-font-weight: bold;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
@@ -192,3 +206,4 @@ line-height: 1.8;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
+
