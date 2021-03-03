@@ -78,8 +78,9 @@ color:var(--title-color)
 .link.menu:focus{
   color:var(--accent-color)
 }
-.link.menu.current-page:active{
-  color:var(--accent-color);
+
+.list .link.menu.current{
+  color: var(--accent-color);
 }
 
 
