@@ -1,73 +1,71 @@
-
 /*  Переменные */
-:root{
- /* Цвета */
-  --accent-color:#2196F3;
-  --bg-color: #FFFFFF;
+:root {
+  /* Цвета */
+  --accent-color: #2196f3;
+  --bg-color: #ffffff;
   --title-color: #212121;
-  --secondary-text-color:#757575;
-  --secondary-white-color: #FFFFFF;
+  --secondary-text-color: #757575;
+  --secondary-white-color: #ffffff;
 
-/* Шрифты */
-  --main-font:'Roboto', sans-serif;
-  --secondary-font:'Raleway', sans-serif;
-  --bg-color-hero-footer:#2F303A;
+  /* Шрифты */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --bg-color-hero-footer: #2f303a;
 }
 
-body{
-  background-color:var(--bg-color);
+body {
+  background-color: var(--bg-color);
   font-family: var(--main-font);
-  color:var(--title-color);
+  color: var(--title-color);
 }
 
 /* Сброс стилей */
-.link{
+.link {
   text-decoration: none;
 }
-.list{
+.list {
   list-style: none;
 }
-.address{
+.address {
   font-style: normal;
 }
 
 /* Компоненты */
-.btn{
- cursor: pointer;}
-
-.section-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color:var(--title-color)
+.btn {
+  cursor: pointer;
 }
 
-.footer{
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.footer {
   background-color: var(--bg-color-hero-footer);
 }
 
 /* Шапка */
-.logo{
-  font-family:var(--secondary-font);
+.logo {
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  color:var(--accent-color);
+  color: var(--accent-color);
 }
 
-
-
-.logo-white{
-  color:var(--secondary-white-color)
+.logo-white {
+  color: var(--secondary-white-color);
 }
-.logo-black{
-  color:#000000;
+.logo-black {
+  color: #000000;
 }
 
-.link.menu{
+.link.menu {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -75,16 +73,15 @@ color:var(--title-color)
   color: var(--title-color);
 }
 .link.menu:hover,
-.link.menu:focus{
-  color:var(--accent-color)
-}
-
-.list .link.menu.current{
+.link.menu:focus {
   color: var(--accent-color);
 }
 
+.list .link.menu.current {
+  color: var(--accent-color);
+}
 
-.link.contact{
+.link.contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -92,84 +89,83 @@ color:var(--title-color)
   color: var(--secondary-text-color);
 }
 .link.contact:hover,
-.link.contact:focus{
-  color:var(--accent-color);
+.link.contact:focus {
+  color: var(--accent-color);
 }
 
 /* Герой */
-.hero{
+.hero {
   background-color: var(--bg-color-hero-footer);
 }
 
-
-.hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.btn.hero{
-font-weight: 700;
-font-size: 16px;
-line-height: 1.8;
-background-color: var(--accent-color);
-color:var(--secondary-white-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border:0px;
+.btn.hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  background-color: var(--accent-color);
+  color: var(--secondary-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
 }
 
 /* Особенности */
 
-.features-title{
-font-weight: 700;
-font-size: 14px;
-line-height:1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--title-color);
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
 }
 
-.features-item{
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color:var(--secondary-text-color);
+.features-item {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /* Секция наша команда */
-.description{
-  background-color: #F5F4FA;
+.description {
+  background-color: #f5f4fa;
 }
 
-.description .description-title{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
-color:var(--title-color);
-}
-
-.description .description-text{
+.description .description-title {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.18; 
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.description .description-text {
+  font-size: 16px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 /* Футер */
-.address .address-text{
+.address .address-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color:var(--secondary-white-color);
+  color: var(--secondary-white-color);
 }
 
-.address .link{
+.address .link {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -179,38 +175,37 @@ color:var(--title-color);
 /* ПОРТФОЛИО */
 /* Меню */
 
-.menu .btn{
+.menu .btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color:var(--title-color);
-  background-color:#F5F4FA;
+  color: var(--title-color);
+  background-color: #f5f4fa;
   border-radius: 4px;
-  border:0px
+  border: 0px;
 }
 
 .menu .btn:hover,
-.menu .btn:focus{
-  color:#FFFFFF;
+.menu .btn:focus {
+  color: #ffffff;
   background-color: var(--accent-color);
 }
 
 /*  Портфолио */
 
-.portfolio .portfolio-title{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--title-color);
+.portfolio .portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
 }
 
-.portfolio .portfolio-text{
-font-size: 16px;
-line-height: 1.8;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+.portfolio .portfolio-text {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
-
